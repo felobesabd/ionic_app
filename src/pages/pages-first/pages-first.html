@@ -1,0 +1,52 @@
+<!--
+  Generated template for the PagesFirstPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- home.html -->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>ModalPage</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="closeModal()">Close</button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-list-header>Login Us</ion-list-header>
+    <ion-item>
+      <button ion-button round color="secondary" (click)="login()">
+        <ion-icon ios="ios-log-in" md="md-log-in"></ion-icon>
+        <span style="margin-left: 10px">Login</span>
+      </button>
+    </ion-item>
+
+    <ion-item>
+      <button ion-button round color="light" (click)="loginByGoogle()">
+        <ion-icon ios="logo-google" md="logo-google"></ion-icon>
+        <span style="margin-left: 10px">Login By Google</span>
+      </button>
+    </ion-item>
+
+    <ion-item>
+      <button ion-button round (click)="loginByFacebook()">
+        <ion-icon ios="logo-facebook" md="logo-facebook"></ion-icon>
+        <span style="margin-left: 10px">Login By Facebook</span>
+      </button>
+    </ion-item>
+
+    <ion-item>
+      <button ion-button round (click)="loginByTwitter()">
+        <ion-icon ios="logo-twitter" md="logo-twitter"></ion-icon>
+        <span style="margin-left: 10px">Login By Twitter</span>
+      </button>
+    </ion-item>
+
+  </ion-list>
+</ion-content>

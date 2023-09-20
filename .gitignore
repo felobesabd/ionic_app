@@ -1,0 +1,21 @@
+# Project exclude paths
+/node_modules/
+/src/app/app.component.js
+/src/app/app.component.js.map
+/src/app/app.module.js
+/src/app/app.module.js.map
+/src/app/main.js
+/src/app/main.js.map
+/src/pages/about/about.js
+/src/pages/about/about.js.map
+/src/pages/contact/contact.js
+/src/pages/contact/contact.js.map
+/src/pages/edit-person/edit-person.js
+/src/pages/edit-person/edit-person.js.map
+/src/pages/edit-person/edit-person.module.js
+/src/pages/edit-person/edit-person.module.js.map
+/src/pages/home/home.js
+/src/pages/home/home.js.map
+/src/pages/tabs/tabs.js
+/src/pages/tabs/tabs.js.map
+/www/

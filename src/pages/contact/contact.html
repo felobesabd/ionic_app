@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>Login Us</ion-list-header>
+    <ion-item>
+      <button ion-button round (click)="openModal()">
+        <ion-icon ios="ios-log-in" md="md-log-in"></ion-icon>
+        <span style="margin-left: 10px">Login</span>
+      </button>
+    </ion-item>
+
+    <ion-item>
+      <button ion-button color="secondary" round (click)="register()">
+        <ion-icon ios="ios-person-add" md="md-person-add"></ion-icon>
+        <span style="margin-left: 10px">Register</span>
+      </button>
+    </ion-item>
+
+    <ion-item>
+      <button ion-button color="danger" round (click)="logout()">
+        <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+        <span style="margin-left: 10px">Logout</span>
+      </button>
+    </ion-item>
+
+<!--    <button ion-button (click)="openModal()">Open Modal</button>-->
+
+  </ion-list>
+</ion-content>
